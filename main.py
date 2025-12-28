@@ -55,7 +55,7 @@ def go(config: DictConfig):
             ##################
             pass
 
-        if "data_check" in active_steps:
+        if "data_check" in active_steps: ##Implementing data check step
             ##################
             # Implement here #
             ##################
@@ -74,7 +74,7 @@ def go(config: DictConfig):
 
 
 
-        if "data_split" in active_steps: ##g
+        if "data_split" in active_steps: ##Implementing data split step
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/train_val_test_split",
                 "main",
