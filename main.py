@@ -50,19 +50,30 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                os.path.join(hydra.utils.get_original_cwd(), "src", "basic_cleaning"),
+                "main",
+                env_manager="conda",
+                parameters={
+                    "input_artifact": "sample.csv:latest",
+                    "output_artifact": "clean_sample.csv",
+                    "output_type": "clean_sample",
+                    "output_description": "Cleaned dataset after basic cleaning",
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"],
+                },
+            )
+
+
 
         if "data_check" in active_steps: ##Implementing data check step
             ##################
             # Implement here #
             ##################
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/data_check",
+                os.path.join(hydra.utils.get_original_cwd(), "src", "data_check"),
                 "main",
-                env_manager="local",
+                env_manager="conda",
                 parameters={
                     "csv": "clean_sample.csv:latest",
                     "ref": "clean_sample.csv:reference",
@@ -71,6 +82,7 @@ def go(config: DictConfig):
                     "max_price": config["etl"]["max_price"],
                 },
             )
+
 
 
 
@@ -106,7 +118,7 @@ def go(config: DictConfig):
 
         if "test_regression_model" in active_steps:
 
-            ##################
+            ##################conda a
             # Implement here #
             ##################
 

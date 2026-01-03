@@ -1,0 +1,71 @@
+{
+  "name": "libllvm21",
+  "version": "21.1.8",
+  "build": "hf7376ad_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libllvm21-21.1.8-hf7376ad_0.conda",
+  "md5": "1a2708a460884d6861425b7f9a7bef99",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libllvm21-21.1.8-hf7376ad_0.conda",
+  "sha256": "91bb4f5be1601b40b4995911d785e29387970f0b3c80f33f7f9028f95335399f",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libstdcxx >=14",
+    "libxml2",
+    "libxml2-16 >=2.14.6",
+    "libzlib >=1.3.1,<2.0a0",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "timestamp": 1765959132513,
+  "size": 44333366,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libllvm21-21.1.8-hf7376ad_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libllvm21-21.1.8-hf7376ad_0",
+  "files": [
+    "lib/libLLVM-21.so",
+    "lib/libLLVM.so.21.1",
+    "lib/libLTO.so.21.1",
+    "lib/libRemarks.so.21.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libLLVM-21.so",
+        "path_type": "softlink",
+        "sha256": "ffe6b7db6948d38bf573321d18ab51d13442dd1f35fa856f15a0cbcbf8d12152",
+        "size_in_bytes": 182951008
+      },
+      {
+        "_path": "lib/libLLVM.so.21.1",
+        "path_type": "hardlink",
+        "sha256": "ffe6b7db6948d38bf573321d18ab51d13442dd1f35fa856f15a0cbcbf8d12152",
+        "size_in_bytes": 182951008,
+        "sha256_in_prefix": "ffe6b7db6948d38bf573321d18ab51d13442dd1f35fa856f15a0cbcbf8d12152"
+      },
+      {
+        "_path": "lib/libLTO.so.21.1",
+        "path_type": "hardlink",
+        "sha256": "c9248fd17f77a82c45b8431fd7df24c1341d2099a80feadcc7881c0b383a4742",
+        "size_in_bytes": 101144,
+        "sha256_in_prefix": "c9248fd17f77a82c45b8431fd7df24c1341d2099a80feadcc7881c0b383a4742"
+      },
+      {
+        "_path": "lib/libRemarks.so.21.1",
+        "path_type": "hardlink",
+        "sha256": "7c9e9db490d577e984516021cc99f9d3a5306cf05693f58496de96c66128f2a4",
+        "size_in_bytes": 14952,
+        "sha256_in_prefix": "7c9e9db490d577e984516021cc99f9d3a5306cf05693f58496de96c66128f2a4"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libllvm21-21.1.8-hf7376ad_0",
+    "type": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "libclang13",
+  "version": "21.1.7",
+  "build": "default_h746c552_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libclang13-21.1.7-default_h746c552_3.conda",
+  "md5": "ee42c44c3676cdbb6e63190077ca57d3",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang13-21.1.7-default_h746c552_3.conda",
+  "sha256": "bdb778b01a7d60aa8cd1c56c613ac8123b0c646793017fda11f27b71c7bd94bf",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libllvm21 >=21.1.7,<21.2.0a0",
+    "libstdcxx >=14"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "timestamp": 1767059745824,
+  "size": 12347163,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang13-21.1.7-default_h746c552_3.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang13-21.1.7-default_h746c552_3",
+  "files": [
+    "lib/libclang.so.13"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libclang.so.13",
+        "path_type": "hardlink",
+        "sha256": "acd97c5588f9bf3c7c03a0a17a83962b8ea010f100afc4cf931cf5a67af1babe",
+        "size_in_bytes": 49145224,
+        "sha256_in_prefix": "acd97c5588f9bf3c7c03a0a17a83962b8ea010f100afc4cf931cf5a67af1babe"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang13-21.1.7-default_h746c552_3",
+    "type": 1
+  }
+}

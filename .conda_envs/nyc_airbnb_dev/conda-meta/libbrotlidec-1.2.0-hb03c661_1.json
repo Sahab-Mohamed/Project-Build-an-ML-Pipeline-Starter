@@ -1,0 +1,68 @@
+{
+  "name": "libbrotlidec",
+  "version": "1.2.0",
+  "build": "hb03c661_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libbrotlidec-1.2.0-hb03c661_1.conda",
+  "md5": "366b40a69f0ad6072561c1d09301c886",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libbrotlidec-1.2.0-hb03c661_1.conda",
+  "sha256": "12fff21d38f98bc446d82baa890e01fd82e3b750378fedc720ff93522ffb752b",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libbrotlicommon 1.2.0 hb03c661_1",
+    "libgcc >=14"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1764017199083,
+  "size": 34632,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlidec-1.2.0-hb03c661_1.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlidec-1.2.0-hb03c661_1",
+  "files": [
+    "lib/libbrotlidec.so",
+    "lib/libbrotlidec.so.1",
+    "lib/libbrotlidec.so.1.2.0",
+    "lib/pkgconfig/libbrotlidec.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlidec.so",
+        "path_type": "softlink",
+        "sha256": "ad80d23baef2449aa9163b77217eca29e8370f0f6c62caa06dfcaf51d15c34d4",
+        "size_in_bytes": 59768
+      },
+      {
+        "_path": "lib/libbrotlidec.so.1",
+        "path_type": "softlink",
+        "sha256": "ad80d23baef2449aa9163b77217eca29e8370f0f6c62caa06dfcaf51d15c34d4",
+        "size_in_bytes": 59768
+      },
+      {
+        "_path": "lib/libbrotlidec.so.1.2.0",
+        "path_type": "hardlink",
+        "sha256": "ad80d23baef2449aa9163b77217eca29e8370f0f6c62caa06dfcaf51d15c34d4",
+        "size_in_bytes": 59768,
+        "sha256_in_prefix": "ad80d23baef2449aa9163b77217eca29e8370f0f6c62caa06dfcaf51d15c34d4"
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlidec.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/brotli-split_1764016952863/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "e1861524993aa498ddeaf8b9cc811d4458062a1015a4950197a870a899decafe",
+        "size_in_bytes": 787,
+        "sha256_in_prefix": "9e42f21f4103ffcc7633f70c33dfaf25d97d91a44a4e02e46a20fe479b0f9e91"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlidec-1.2.0-hb03c661_1",
+    "type": 1
+  }
+}

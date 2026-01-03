@@ -1,0 +1,91 @@
+{
+  "name": "xcb-util-cursor",
+  "version": "0.1.6",
+  "build": "hb03c661_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "xcb-util-cursor-0.1.6-hb03c661_0.conda",
+  "md5": "4d1fc190b99912ed557a8236e958c559",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xcb-util-cursor-0.1.6-hb03c661_0.conda",
+  "sha256": "c2be9cae786fdb2df7c2387d2db31b285cf90ab3bfabda8fa75a596c3d20fc67",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libxcb >=1.13",
+    "libxcb >=1.17.0,<2.0a0",
+    "xcb-util-image >=0.4.0,<0.5.0a0",
+    "xcb-util-renderutil >=0.3.10,<0.4.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1763366954390,
+  "size": 20829,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/xcb-util-cursor-0.1.6-hb03c661_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/xcb-util-cursor-0.1.6-hb03c661_0",
+  "files": [
+    "include/xcb/xcb_cursor.h",
+    "lib/libxcb-cursor.a",
+    "lib/libxcb-cursor.so",
+    "lib/libxcb-cursor.so.0",
+    "lib/libxcb-cursor.so.0.0.0",
+    "lib/pkgconfig/xcb-cursor.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/xcb/xcb_cursor.h",
+        "path_type": "hardlink",
+        "sha256": "f93f9d5a8bad7957dbd895846f63ee83d198c6c5f236fdfd4e2dc5184efa2e58",
+        "size_in_bytes": 4352,
+        "sha256_in_prefix": "f93f9d5a8bad7957dbd895846f63ee83d198c6c5f236fdfd4e2dc5184efa2e58"
+      },
+      {
+        "_path": "lib/libxcb-cursor.a",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-cursor_1763366841178/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "89dbccf08133a33b6fe1ff1197f2efe711195b910246bbdc9c0030a7bd109017",
+        "size_in_bytes": 31542,
+        "sha256_in_prefix": "5c838f4c5793ba0c8da79f6bbe29f18ca34301fa5ed2500272bee1a3bb8f42c1"
+      },
+      {
+        "_path": "lib/libxcb-cursor.so",
+        "path_type": "softlink",
+        "sha256": "0457cd1304dad7f9976cff315ed23a6bdbeae456ef9cafc4c4b510d9d0e32523",
+        "size_in_bytes": 27216
+      },
+      {
+        "_path": "lib/libxcb-cursor.so.0",
+        "path_type": "softlink",
+        "sha256": "0457cd1304dad7f9976cff315ed23a6bdbeae456ef9cafc4c4b510d9d0e32523",
+        "size_in_bytes": 27216
+      },
+      {
+        "_path": "lib/libxcb-cursor.so.0.0.0",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-cursor_1763366841178/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "0457cd1304dad7f9976cff315ed23a6bdbeae456ef9cafc4c4b510d9d0e32523",
+        "size_in_bytes": 27216,
+        "sha256_in_prefix": "e338625bbf94b4d46be3c108fe04442b09a5db308022e35daa142ef274d09829"
+      },
+      {
+        "_path": "lib/pkgconfig/xcb-cursor.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-cursor_1763366841178/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "224d9b847608459c9107ce4e6ad66b0fb6a1e01d18caa61a8229df8bcca40a8e",
+        "size_in_bytes": 545,
+        "sha256_in_prefix": "5a1a161e7ff3255b9d7f196fcc4515dcf810d8b4ff09fc5ec3a1e364f71886bc"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/xcb-util-cursor-0.1.6-hb03c661_0",
+    "type": 1
+  }
+}

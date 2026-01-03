@@ -1,0 +1,98 @@
+{
+  "name": "libvulkan-loader",
+  "version": "1.4.328.1",
+  "build": "h5279c79_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libvulkan-loader-1.4.328.1-h5279c79_0.conda",
+  "md5": "372a62464d47d9e966b630ffae3abe73",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libvulkan-loader-1.4.328.1-h5279c79_0.conda",
+  "sha256": "bbabc5c48b63ff03f440940a11d4648296f5af81bb7630d98485405cd32ac1ce",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libstdcxx >=14",
+    "libgcc >=14",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "xorg-libxrandr >=1.5.4,<2.0a0"
+  ],
+  "constrains": [
+    "libvulkan-headers 1.4.328.1.*"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "timestamp": 1759972155030,
+  "size": 197672,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libvulkan-loader-1.4.328.1-h5279c79_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libvulkan-loader-1.4.328.1-h5279c79_0",
+  "files": [
+    "lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake",
+    "lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake",
+    "lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake",
+    "lib/libvulkan.so",
+    "lib/libvulkan.so.1",
+    "lib/libvulkan.so.1.4.328",
+    "lib/pkgconfig/vulkan.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "79200c6557cdd1be7177167690831e7cdeda20c3ea8f2eed95be2195665f0ec6",
+        "size_in_bytes": 854,
+        "sha256_in_prefix": "79200c6557cdd1be7177167690831e7cdeda20c3ea8f2eed95be2195665f0ec6"
+      },
+      {
+        "_path": "lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "76068f2f968f7c60d6f082ff7f1ad4db591bbb7b3c2498b06c49c502aea4c1c2",
+        "size_in_bytes": 4010,
+        "sha256_in_prefix": "76068f2f968f7c60d6f082ff7f1ad4db591bbb7b3c2498b06c49c502aea4c1c2"
+      },
+      {
+        "_path": "lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "14c1d9581d36c34631f3f8edb120f4ad302bbc2e0c4f49fa1d7cf0b75463356c",
+        "size_in_bytes": 2768,
+        "sha256_in_prefix": "14c1d9581d36c34631f3f8edb120f4ad302bbc2e0c4f49fa1d7cf0b75463356c"
+      },
+      {
+        "_path": "lib/libvulkan.so",
+        "path_type": "softlink",
+        "sha256": "4dc7fee102e092e3a5ef84fe375a7b09cd0fb416c43a7946e416956176f0e9d0",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/libvulkan.so.1",
+        "path_type": "softlink",
+        "sha256": "4dc7fee102e092e3a5ef84fe375a7b09cd0fb416c43a7946e416956176f0e9d0",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/libvulkan.so.1.4.328",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libvulkan-loader_1759972155/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "4dc7fee102e092e3a5ef84fe375a7b09cd0fb416c43a7946e416956176f0e9d0",
+        "size_in_bytes": 651664,
+        "sha256_in_prefix": "22587c33cb52dacbe01da6de13ca0d284f728df9ce58110ccaab01b7069794b6"
+      },
+      {
+        "_path": "lib/pkgconfig/vulkan.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libvulkan-loader_1759972155/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "3f7e1b691f52de3167b7ecead66b557434758cd49cc0e1db2fa096f42ba83a64",
+        "size_in_bytes": 456,
+        "sha256_in_prefix": "1dc1d233f73eb90daa4474d677cdd28aaad73be4495ee8e3534f7659cf713753"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libvulkan-loader-1.4.328.1-h5279c79_0",
+    "type": 1
+  }
+}

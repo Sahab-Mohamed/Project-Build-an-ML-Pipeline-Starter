@@ -1,0 +1,51 @@
+{
+  "name": "libegl",
+  "version": "1.7.0",
+  "build": "ha4b6fd6_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libegl-1.7.0-ha4b6fd6_2.conda",
+  "md5": "c151d5eb730e9b7480e6d48c0fc44048",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libegl-1.7.0-ha4b6fd6_2.conda",
+  "sha256": "7fd5408d359d05a969133e47af580183fbf38e2235b562193d427bb9dad79723",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libglvnd 1.7.0 ha4b6fd6_2"
+  ],
+  "constrains": [],
+  "license": "LicenseRef-libglvnd",
+  "timestamp": 1731330973553,
+  "size": 44840,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libegl-1.7.0-ha4b6fd6_2.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libegl-1.7.0-ha4b6fd6_2",
+  "files": [
+    "lib/libEGL.so.1",
+    "lib/libEGL.so.1.1.0"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libEGL.so.1",
+        "path_type": "softlink",
+        "sha256": "3549c227497e85e436f455f0d310ccafa0081433e5e707a1aa5e0526c81b2ba7",
+        "size_in_bytes": 89328
+      },
+      {
+        "_path": "lib/libEGL.so.1.1.0",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libglvnd-split_1731330802030/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "3549c227497e85e436f455f0d310ccafa0081433e5e707a1aa5e0526c81b2ba7",
+        "size_in_bytes": 89328,
+        "sha256_in_prefix": "02bbaf09bf9ce7e9dcca1eb755bb02c353f727df291818d1edd43d2abf973beb"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libegl-1.7.0-ha4b6fd6_2",
+    "type": 1
+  }
+}

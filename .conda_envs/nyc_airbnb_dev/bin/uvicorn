@@ -1,0 +1,7 @@
+#!/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_envs/nyc_airbnb_dev/bin/python
+import sys
+from uvicorn.main import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())

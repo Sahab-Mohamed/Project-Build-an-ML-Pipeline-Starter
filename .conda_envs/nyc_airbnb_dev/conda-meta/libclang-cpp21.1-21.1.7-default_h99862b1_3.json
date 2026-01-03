@@ -1,0 +1,45 @@
+{
+  "name": "libclang-cpp21.1",
+  "version": "21.1.7",
+  "build": "default_h99862b1_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libclang-cpp21.1-21.1.7-default_h99862b1_3.conda",
+  "md5": "b450493426793d5fe7d8216a27120050",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang-cpp21.1-21.1.7-default_h99862b1_3.conda",
+  "sha256": "4353a2695290716fdc85821936aaa0bacacf59ae91f65708921b753bfa2d2a2f",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libllvm21 >=21.1.7,<21.2.0a0",
+    "libstdcxx >=14"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "timestamp": 1767059401369,
+  "size": 21055419,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang-cpp21.1-21.1.7-default_h99862b1_3.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang-cpp21.1-21.1.7-default_h99862b1_3",
+  "files": [
+    "lib/libclang-cpp.so.21.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libclang-cpp.so.21.1",
+        "path_type": "hardlink",
+        "sha256": "0a7c61b7197d801240ae519beda4c17abaa5e31859275a3eca1df614bb358bcd",
+        "size_in_bytes": 89516056,
+        "sha256_in_prefix": "0a7c61b7197d801240ae519beda4c17abaa5e31859275a3eca1df614bb358bcd"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libclang-cpp21.1-21.1.7-default_h99862b1_3",
+    "type": 1
+  }
+}

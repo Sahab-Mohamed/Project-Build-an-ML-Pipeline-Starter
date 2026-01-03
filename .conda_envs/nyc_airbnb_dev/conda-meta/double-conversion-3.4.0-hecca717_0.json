@@ -1,0 +1,204 @@
+{
+  "name": "double-conversion",
+  "version": "3.4.0",
+  "build": "hecca717_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "double-conversion-3.4.0-hecca717_0.conda",
+  "md5": "dbe3ec0f120af456b3477743ffd99b74",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/double-conversion-3.4.0-hecca717_0.conda",
+  "sha256": "40cdd1b048444d3235069d75f9c8e1f286db567f6278a93b4f024e5642cfaecc",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libstdcxx >=14"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "timestamp": 1765193127016,
+  "size": 71809,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/double-conversion-3.4.0-hecca717_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/double-conversion-3.4.0-hecca717_0",
+  "files": [
+    "include/double-conversion/bignum-dtoa.h",
+    "include/double-conversion/bignum.h",
+    "include/double-conversion/cached-powers.h",
+    "include/double-conversion/diy-fp.h",
+    "include/double-conversion/double-conversion.h",
+    "include/double-conversion/double-to-string.h",
+    "include/double-conversion/fast-dtoa.h",
+    "include/double-conversion/fixed-dtoa.h",
+    "include/double-conversion/ieee.h",
+    "include/double-conversion/string-to-double.h",
+    "include/double-conversion/strtod.h",
+    "include/double-conversion/utils.h",
+    "lib/cmake/double-conversion/double-conversionConfig.cmake",
+    "lib/cmake/double-conversion/double-conversionConfigVersion.cmake",
+    "lib/cmake/double-conversion/double-conversionTargets-release.cmake",
+    "lib/cmake/double-conversion/double-conversionTargets.cmake",
+    "lib/libdouble-conversion.a",
+    "lib/libdouble-conversion.so",
+    "lib/libdouble-conversion.so.3",
+    "lib/libdouble-conversion.so.3.4.0",
+    "lib/pkgconfig/double-conversion.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/double-conversion/bignum-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "d11517ebb69107c515c5b45d820e1a2ff665ac64182f62fdd25bac804acf1d1f",
+        "size_in_bytes": 4300,
+        "sha256_in_prefix": "d11517ebb69107c515c5b45d820e1a2ff665ac64182f62fdd25bac804acf1d1f"
+      },
+      {
+        "_path": "include/double-conversion/bignum.h",
+        "path_type": "hardlink",
+        "sha256": "6b63faea13f36f6026b56855aa8d28329ba1a91c564b9abc94b21608ca42cbfb",
+        "size_in_bytes": 5891,
+        "sha256_in_prefix": "6b63faea13f36f6026b56855aa8d28329ba1a91c564b9abc94b21608ca42cbfb"
+      },
+      {
+        "_path": "include/double-conversion/cached-powers.h",
+        "path_type": "hardlink",
+        "sha256": "1da91324ffd4200b3cb41d1f0707277175cdd28fcbffa13104e14df431f00744",
+        "size_in_bytes": 3021,
+        "sha256_in_prefix": "1da91324ffd4200b3cb41d1f0707277175cdd28fcbffa13104e14df431f00744"
+      },
+      {
+        "_path": "include/double-conversion/diy-fp.h",
+        "path_type": "hardlink",
+        "sha256": "f8f5d66be5684ac547f68b997d41fdc57e8dc2ca1ef2ef2e3b10c6a76c9c5b75",
+        "size_in_bytes": 5030,
+        "sha256_in_prefix": "f8f5d66be5684ac547f68b997d41fdc57e8dc2ca1ef2ef2e3b10c6a76c9c5b75"
+      },
+      {
+        "_path": "include/double-conversion/double-conversion.h",
+        "path_type": "hardlink",
+        "sha256": "2754e5e7ef1a158d00f529da03dcf943dd239ccc70e798a594f22e13e8dd0f94",
+        "size_in_bytes": 1804,
+        "sha256_in_prefix": "2754e5e7ef1a158d00f529da03dcf943dd239ccc70e798a594f22e13e8dd0f94"
+      },
+      {
+        "_path": "include/double-conversion/double-to-string.h",
+        "path_type": "hardlink",
+        "sha256": "cb0b7ec6c4d8896a9d24e737ae4c33e1a341e2e5c61022a9adc1c67f4be0073b",
+        "size_in_bytes": 24647,
+        "sha256_in_prefix": "cb0b7ec6c4d8896a9d24e737ae4c33e1a341e2e5c61022a9adc1c67f4be0073b"
+      },
+      {
+        "_path": "include/double-conversion/fast-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "523d778935995dea5d21e59f55629ba40eaf68dedfe99e82b71efd4ae75f4e40",
+        "size_in_bytes": 4064,
+        "sha256_in_prefix": "523d778935995dea5d21e59f55629ba40eaf68dedfe99e82b71efd4ae75f4e40"
+      },
+      {
+        "_path": "include/double-conversion/fixed-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "5c22077d3d333998b87c578aa1a015503d162895e20e5f2ee92721c834748ee1",
+        "size_in_bytes": 2770,
+        "sha256_in_prefix": "5c22077d3d333998b87c578aa1a015503d162895e20e5f2ee92721c834748ee1"
+      },
+      {
+        "_path": "include/double-conversion/ieee.h",
+        "path_type": "hardlink",
+        "sha256": "bc9a4adae492f692e19db9c279eac52d4933ddf872aff43056bceee42d65a8f5",
+        "size_in_bytes": 15223,
+        "sha256_in_prefix": "bc9a4adae492f692e19db9c279eac52d4933ddf872aff43056bceee42d65a8f5"
+      },
+      {
+        "_path": "include/double-conversion/string-to-double.h",
+        "path_type": "hardlink",
+        "sha256": "1976310fdd04e3bc350c5f8f4b443ba0287abb4004b318f048ac41611278e4c9",
+        "size_in_bytes": 10848,
+        "sha256_in_prefix": "1976310fdd04e3bc350c5f8f4b443ba0287abb4004b318f048ac41611278e4c9"
+      },
+      {
+        "_path": "include/double-conversion/strtod.h",
+        "path_type": "hardlink",
+        "sha256": "08c3a8f9852b6e3399b694ead7511e0ecadc96a6a61431fc1f9df003f2ff41d8",
+        "size_in_bytes": 3038,
+        "sha256_in_prefix": "08c3a8f9852b6e3399b694ead7511e0ecadc96a6a61431fc1f9df003f2ff41d8"
+      },
+      {
+        "_path": "include/double-conversion/utils.h",
+        "path_type": "hardlink",
+        "sha256": "ab745c4b74fdd27d967d8026d082bff3ef59ca2ca581c163dcf266bebd413795",
+        "size_in_bytes": 15556,
+        "sha256_in_prefix": "ab745c4b74fdd27d967d8026d082bff3ef59ca2ca581c163dcf266bebd413795"
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "3df3cd58df8cb429d47d5e8c6922e02f616ed0c62ee98310b89b7bbd7da50883",
+        "size_in_bytes": 989,
+        "sha256_in_prefix": "3df3cd58df8cb429d47d5e8c6922e02f616ed0c62ee98310b89b7bbd7da50883"
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "7762047cf91b3e88465a0ad02cf724afdbd32aac4f51414ed5983155e20ac1ad",
+        "size_in_bytes": 2762,
+        "sha256_in_prefix": "7762047cf91b3e88465a0ad02cf724afdbd32aac4f51414ed5983155e20ac1ad"
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "32146bf90272d0328dd681e0234a0661044616b483aedb950114943063a373c0",
+        "size_in_bytes": 993,
+        "sha256_in_prefix": "32146bf90272d0328dd681e0234a0661044616b483aedb950114943063a373c0"
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "89db7747132f4c71137ebf7101418a5c3bc549b226566d2f4efe055cb1c4699d",
+        "size_in_bytes": 4214,
+        "sha256_in_prefix": "89db7747132f4c71137ebf7101418a5c3bc549b226566d2f4efe055cb1c4699d"
+      },
+      {
+        "_path": "lib/libdouble-conversion.a",
+        "path_type": "hardlink",
+        "sha256": "a376bf451c0c7f3506e939e539003cb3610f6f0791cb8a522e73ba97fd121a62",
+        "size_in_bytes": 112588,
+        "sha256_in_prefix": "a376bf451c0c7f3506e939e539003cb3610f6f0791cb8a522e73ba97fd121a62"
+      },
+      {
+        "_path": "lib/libdouble-conversion.so",
+        "path_type": "softlink",
+        "sha256": "aabb23e238e6c1b69784335ef5eed7c97893dce8f03d91b5034544dfc3c0fd1a",
+        "size_in_bytes": 85568
+      },
+      {
+        "_path": "lib/libdouble-conversion.so.3",
+        "path_type": "softlink",
+        "sha256": "aabb23e238e6c1b69784335ef5eed7c97893dce8f03d91b5034544dfc3c0fd1a",
+        "size_in_bytes": 85568
+      },
+      {
+        "_path": "lib/libdouble-conversion.so.3.4.0",
+        "path_type": "hardlink",
+        "sha256": "aabb23e238e6c1b69784335ef5eed7c97893dce8f03d91b5034544dfc3c0fd1a",
+        "size_in_bytes": 85568,
+        "sha256_in_prefix": "aabb23e238e6c1b69784335ef5eed7c97893dce8f03d91b5034544dfc3c0fd1a"
+      },
+      {
+        "_path": "lib/pkgconfig/double-conversion.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/double-conversion_1765192980423/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "75b5cee36e39b4bdff0a3c23fe07af09baad94b3ccad450f16f3b2e8d0cffe00",
+        "size_in_bytes": 488,
+        "sha256_in_prefix": "e58834117bbc59c0ea59123740127ffeaae1029c3788eb8f0d621edf477c6a23"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/double-conversion-3.4.0-hecca717_0",
+    "type": 1
+  }
+}

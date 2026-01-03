@@ -1,0 +1,34 @@
+{
+  "name": "cpython",
+  "version": "3.13.11",
+  "build": "py313hd8ed1ab_100",
+  "build_number": 100,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "cpython-3.13.11-py313hd8ed1ab_100.conda",
+  "md5": "5bf347916a543bcb290c780fa449bf73",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cpython-3.13.11-py313hd8ed1ab_100.conda",
+  "sha256": "63f677762304e6f8dc55e11dff6aafe71129cbbd0a77d176b99ba1f6a5053b77",
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi * *_cp313"
+  ],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "Python-2.0",
+  "package_type": "noarch_generic",
+  "timestamp": 1765019689213,
+  "size": 48369,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/cpython-3.13.11-py313hd8ed1ab_100.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/cpython-3.13.11-py313hd8ed1ab_100",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/cpython-3.13.11-py313hd8ed1ab_100",
+    "type": 1
+  }
+}

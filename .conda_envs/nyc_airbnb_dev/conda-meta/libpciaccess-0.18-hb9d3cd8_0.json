@@ -1,0 +1,77 @@
+{
+  "name": "libpciaccess",
+  "version": "0.18",
+  "build": "hb9d3cd8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libpciaccess-0.18-hb9d3cd8_0.conda",
+  "md5": "70e3400cbbfa03e96dcde7fc13e38c7b",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libpciaccess-0.18-hb9d3cd8_0.conda",
+  "sha256": "0bd91de9b447a2991e666f284ae8c722ffb1d84acb594dbd0c031bd656fa32b2",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1749901812541,
+  "size": 28424,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libpciaccess-0.18-hb9d3cd8_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libpciaccess-0.18-hb9d3cd8_0",
+  "files": [
+    "include/pciaccess.h",
+    "lib/libpciaccess.so",
+    "lib/libpciaccess.so.0",
+    "lib/libpciaccess.so.0.11.1",
+    "lib/pkgconfig/pciaccess.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/pciaccess.h",
+        "path_type": "hardlink",
+        "sha256": "82faf55af1ac86cd101a4c91a5e37089cc242eb805c964a0b0d20584a7e58869",
+        "size_in_bytes": 15504,
+        "sha256_in_prefix": "82faf55af1ac86cd101a4c91a5e37089cc242eb805c964a0b0d20584a7e58869"
+      },
+      {
+        "_path": "lib/libpciaccess.so",
+        "path_type": "softlink",
+        "sha256": "c45cb76087bc2acead1a5248a26c266227f725c8fdea29ddb0ab4688b906b0f2",
+        "size_in_bytes": 50768
+      },
+      {
+        "_path": "lib/libpciaccess.so.0",
+        "path_type": "softlink",
+        "sha256": "c45cb76087bc2acead1a5248a26c266227f725c8fdea29ddb0ab4688b906b0f2",
+        "size_in_bytes": 50768
+      },
+      {
+        "_path": "lib/libpciaccess.so.0.11.1",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libpciaccess_1749901677150/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "c45cb76087bc2acead1a5248a26c266227f725c8fdea29ddb0ab4688b906b0f2",
+        "size_in_bytes": 50768,
+        "sha256_in_prefix": "9d9d9dac7ec304e6187f1cfff4c853f10ccc68acd98e29927d518c28549bb2e9"
+      },
+      {
+        "_path": "lib/pkgconfig/pciaccess.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libpciaccess_1749901677150/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "222266f365af79b2077521a3516bd30a79b66819b8378a95cdacb347b6e9c895",
+        "size_in_bytes": 471,
+        "sha256_in_prefix": "26c2a58e8aefd75aa88405296fc4f55fa5ad45707b95a7360e81e9240852f5ad"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libpciaccess-0.18-hb9d3cd8_0",
+    "type": 1
+  }
+}

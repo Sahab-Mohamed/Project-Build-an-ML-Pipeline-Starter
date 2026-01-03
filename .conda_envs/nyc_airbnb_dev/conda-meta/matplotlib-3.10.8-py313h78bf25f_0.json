@@ -1,0 +1,36 @@
+{
+  "name": "matplotlib",
+  "version": "3.10.8",
+  "build": "py313h78bf25f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "matplotlib-3.10.8-py313h78bf25f_0.conda",
+  "md5": "85bce686dd57910d533807562204e16b",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/matplotlib-3.10.8-py313h78bf25f_0.conda",
+  "sha256": "ad3eb40a91d456620936c88ea4eb2700ca24e474acd9498fdad831a87771399e",
+  "depends": [
+    "matplotlib-base >=3.10.8,<3.10.9.0a0",
+    "pyside6 >=6.7.2",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "tornado >=5"
+  ],
+  "constrains": [],
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "timestamp": 1763055377972,
+  "size": 17429,
+  "requested_spec": "matplotlib",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/matplotlib-3.10.8-py313h78bf25f_0.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/matplotlib-3.10.8-py313h78bf25f_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/matplotlib-3.10.8-py313h78bf25f_0",
+    "type": 1
+  }
+}

@@ -1,0 +1,3 @@
+eval "$(/home/sahab/miniconda3/bin/conda shell.posix hook)"
+conda activate  /home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_envs/nyc_airbnb_dev
+/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_envs/nyc_airbnb_dev/bin/python -m pip install -U -r /home/sahab/Project-Build-an-ML-Pipeline-Starter/condaenv.4ih1ezi4.requirements.txt --exists-action=b

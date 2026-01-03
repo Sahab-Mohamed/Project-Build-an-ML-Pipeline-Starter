@@ -1,0 +1,107 @@
+{
+  "name": "libbrotlicommon",
+  "version": "1.2.0",
+  "build": "hb03c661_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libbrotlicommon-1.2.0-hb03c661_1.conda",
+  "md5": "72c8fd1af66bd67bf580645b426513ed",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libbrotlicommon-1.2.0-hb03c661_1.conda",
+  "sha256": "318f36bd49ca8ad85e6478bd8506c88d82454cc008c1ac1c6bf00a3c42fa610e",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1764017188531,
+  "size": 79965,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlicommon-1.2.0-hb03c661_1.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlicommon-1.2.0-hb03c661_1",
+  "files": [
+    "lib/libbrotlicommon.so",
+    "lib/libbrotlicommon.so.1",
+    "lib/libbrotlicommon.so.1.2.0",
+    "lib/pkgconfig/libbrotlicommon.pc",
+    "share/man/man1/brotli.1",
+    "share/man/man3/constants.h.3",
+    "share/man/man3/decode.h.3",
+    "share/man/man3/encode.h.3",
+    "share/man/man3/types.h.3"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlicommon.so",
+        "path_type": "softlink",
+        "sha256": "d5bba266a5752ababb4a56a79aec3071f9eac8984a3c818493ad006b4b74beb4",
+        "size_in_bytes": 143408
+      },
+      {
+        "_path": "lib/libbrotlicommon.so.1",
+        "path_type": "softlink",
+        "sha256": "d5bba266a5752ababb4a56a79aec3071f9eac8984a3c818493ad006b4b74beb4",
+        "size_in_bytes": 143408
+      },
+      {
+        "_path": "lib/libbrotlicommon.so.1.2.0",
+        "path_type": "hardlink",
+        "sha256": "d5bba266a5752ababb4a56a79aec3071f9eac8984a3c818493ad006b4b74beb4",
+        "size_in_bytes": 143408,
+        "sha256_in_prefix": "d5bba266a5752ababb4a56a79aec3071f9eac8984a3c818493ad006b4b74beb4"
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlicommon.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/brotli-split_1764016952863/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "28faf04b088e5c551cd204437deee85eeb2e17c31cdf24d77d1c1881111a466c",
+        "size_in_bytes": 761,
+        "sha256_in_prefix": "672bd518b844d99694681df2f5bc8d427568cb1bcb036105717bd27a987e5ea6"
+      },
+      {
+        "_path": "share/man/man1/brotli.1",
+        "path_type": "hardlink",
+        "sha256": "5592e0207f942e1b7be075bacd948ad20b76792845626a21592f5b9742c7af93",
+        "size_in_bytes": 5130,
+        "sha256_in_prefix": "5592e0207f942e1b7be075bacd948ad20b76792845626a21592f5b9742c7af93"
+      },
+      {
+        "_path": "share/man/man3/constants.h.3",
+        "path_type": "hardlink",
+        "sha256": "2ac99f4d97a57a170877fed3ff93251612850f43598ba4eaf234e246787c978d",
+        "size_in_bytes": 1767,
+        "sha256_in_prefix": "2ac99f4d97a57a170877fed3ff93251612850f43598ba4eaf234e246787c978d"
+      },
+      {
+        "_path": "share/man/man3/decode.h.3",
+        "path_type": "hardlink",
+        "sha256": "be0a93be98e80f00d075bf43dc6a0bb84cb4028ce0082211e958d1ef18112d8f",
+        "size_in_bytes": 17452,
+        "sha256_in_prefix": "be0a93be98e80f00d075bf43dc6a0bb84cb4028ce0082211e958d1ef18112d8f"
+      },
+      {
+        "_path": "share/man/man3/encode.h.3",
+        "path_type": "hardlink",
+        "sha256": "893ebea4d0d29ff3f2b83004c6bcb4d3610ced41f7cb04f72c1710ff339f5a90",
+        "size_in_bytes": 24310,
+        "sha256_in_prefix": "893ebea4d0d29ff3f2b83004c6bcb4d3610ced41f7cb04f72c1710ff339f5a90"
+      },
+      {
+        "_path": "share/man/man3/types.h.3",
+        "path_type": "hardlink",
+        "sha256": "c9afc281d042e84df6ba5ef4ac4a39f7e1ad8cae4d98adc702055b99c38b2267",
+        "size_in_bytes": 3081,
+        "sha256_in_prefix": "c9afc281d042e84df6ba5ef4ac4a39f7e1ad8cae4d98adc702055b99c38b2267"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/libbrotlicommon-1.2.0-hb03c661_1",
+    "type": 1
+  }
+}

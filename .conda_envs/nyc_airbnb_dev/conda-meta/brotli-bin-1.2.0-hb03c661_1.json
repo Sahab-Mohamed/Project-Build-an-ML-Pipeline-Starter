@@ -1,0 +1,45 @@
+{
+  "name": "brotli-bin",
+  "version": "1.2.0",
+  "build": "hb03c661_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "brotli-bin-1.2.0-hb03c661_1.conda",
+  "md5": "af39b9a8711d4a8d437b52c1d78eb6a1",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/brotli-bin-1.2.0-hb03c661_1.conda",
+  "sha256": "64b137f30b83b1dd61db6c946ae7511657eead59fdf74e84ef0ded219605aa94",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libbrotlidec 1.2.0 hb03c661_1",
+    "libbrotlienc 1.2.0 hb03c661_1",
+    "libgcc >=14"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1764017221344,
+  "size": 21021,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/brotli-bin-1.2.0-hb03c661_1.conda",
+  "extracted_package_dir": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/brotli-bin-1.2.0-hb03c661_1",
+  "files": [
+    "bin/brotli"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/brotli",
+        "path_type": "hardlink",
+        "sha256": "0c06479251cfdac63fccb6602813ad31ee1ad024f3de44bab3d17d8a2e4ec3df",
+        "size_in_bytes": 38896,
+        "sha256_in_prefix": "0c06479251cfdac63fccb6602813ad31ee1ad024f3de44bab3d17d8a2e4ec3df"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/sahab/Project-Build-an-ML-Pipeline-Starter/.conda_pkgs/brotli-bin-1.2.0-hb03c661_1",
+    "type": 1
+  }
+}
