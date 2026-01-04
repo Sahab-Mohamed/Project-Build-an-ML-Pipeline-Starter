@@ -167,6 +167,8 @@ This will iterate over all the environments created by `mlflow` and remove them.
 
 ### MLflow & Wandb
 
+Project link: https://wandb.ai/sahabshaelan-western-governors-university/nyc_airbnb?nw=nwusersahabshaelan
+
 If you see the any error while running the command:
 
 ```
