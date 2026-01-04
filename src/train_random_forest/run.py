@@ -60,9 +60,25 @@ def go(args):
 
     logger.info(f"Minimum price: {y.min()}, Maximum price: {y.max()}")
 
+    stratify_col = None
+    if args.stratify_by != "none":
+        if args.stratify_by in X.columns:
+            stratify_col = X[args.stratify_by]
+        else:
+            logger.warning(
+                "stratify_by=%s not found in columns; disabling stratification",
+                args.stratify_by,
+            )
+
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=args.val_size, stratify=X[args.stratify_by], random_state=args.random_seed
+        X,
+        y,
+        test_size=args.val_size,
+        stratify=X[args.stratify_by] if args.stratify_by != "none" else None,
+        random_state=args.random_seed
     )
+
+
 
     logger.info("Preparing sklearn pipeline")
 
@@ -124,6 +140,10 @@ def go(args):
     # Now save the variable mae under the key "mae".
     # YOUR CODE HERE
     run.summary["mae"] = mae
+    run.log({
+    "r2": r_squared,
+    "mae": mae
+})
     ######################################
 
     # Upload to W&B the feture importance visualization
@@ -165,9 +185,13 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # Build a pipeline with two steps:
     # 1 - A SimpleImputer(strategy="most_frequent") to impute missing values
     # 2 - A OneHotEncoder() step to encode the variable
+    try:
+        encoder = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
+    except TypeError:
+        encoder = OneHotEncoder(handle_unknown="ignore", sparse=False)
     non_ordinal_categorical_preproc = make_pipeline(
         SimpleImputer(strategy="most_frequent"),
-        OneHotEncoder(handle_unknown="ignore", sparse=False)
+        encoder,
     )
     ######################################
 
@@ -194,7 +218,10 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     )
 
     # Some minimal NLP for the "name" column
-    reshape_to_1d = FunctionTransformer(np.reshape, kw_args={"newshape": -1})
+    reshape_to_1d = FunctionTransformer(
+        lambda x: np.reshape(x, (-1,)),
+        validate=False,
+    )
     name_tfidf = make_pipeline(
         SimpleImputer(strategy="constant", fill_value=""),
         reshape_to_1d,

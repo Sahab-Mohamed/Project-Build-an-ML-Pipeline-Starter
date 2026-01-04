@@ -27,11 +27,20 @@ def go(args):
     df = pd.read_csv(artifact_local_path)
 
     logger.info("Splitting trainval and test")
+    stratify_col = None
+    if args.stratify_by != "none":
+        if args.stratify_by in df.columns:
+            stratify_col = df[args.stratify_by]
+        else:
+            logger.warning(
+                "stratify_by=%s not found in columns; disabling stratification",
+                args.stratify_by,
+            )
     trainval, test = train_test_split(
         df,
         test_size=args.test_size,
         random_state=args.random_seed,
-        stratify=df[args.stratify_by] if args.stratify_by != 'none' else None,
+        stratify=stratify_col,
     )
 
     # Save to output files
