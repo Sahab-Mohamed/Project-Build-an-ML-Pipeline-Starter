@@ -167,7 +167,9 @@ This will iterate over all the environments created by `mlflow` and remove them.
 
 ### MLflow & Wandb
 
-Project link: https://wandb.ai/sahabshaelan-western-governors-university/nyc_airbnb?nw=nwusersahabshaelan
+W&B Project link: https://wandb.ai/sahabshaelan-western-governors-university/nyc_airbnb?nw=nwusersahabshaelan
+
+GitHub: https://github.com/Sahab-Mohamed/Project-Build-an-ML-Pipeline-Starter
 
 If you see the any error while running the command:
 
